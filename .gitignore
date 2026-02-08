@@ -1,0 +1,93 @@
+# See https://docs.github.com/en/get-started/git-basics/gitignore-example-template for more
+
+# Dependencies
+node_modules/
+.npm/
+.pnp/
+.pnp.js
+yarn.lock
+
+# Next.js
+.next/
+out/
+build/
+standalone/
+.vercel
+.v0/
+
+# Production
+dist/
+export/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Testing
+.coverage
+coverage/
+*.lcov
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+htmlcov/
+.cov
+.pytest/
+
+# Distribution / Packaging
+*.tar.gz
+*.whl
+
+# Documentation
+docs/_build/
+
+# Local development
+local/
+tmp/
+temp/
